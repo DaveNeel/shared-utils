@@ -27,7 +27,7 @@ coverage/
 jest-test-results.json
  
 # === Build Artifacts ===
-dist/
+# dist/
 build/
 tmp/
 temp/
