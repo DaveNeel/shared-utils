@@ -17,7 +17,7 @@ export const connectDatabase = async (
         dbUrl += ":" + encodeURIComponent(password) + "@";
     }
 
-    if (isNullOrUndefined(host) && !isStringNullEmptyOrUndefined(host)) {
+    if (!isNullOrUndefined(host) && !isStringNullEmptyOrUndefined(host)) {
         dbUrl += host;
     }
 

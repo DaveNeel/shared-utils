@@ -19,7 +19,7 @@ const connectDatabase = (userName, password, host, port, name) => __awaiter(void
     if (!(0, null_check_1.isNullOrUndefined)(password) && !(0, null_check_1.isStringNullEmptyOrUndefined)(password)) {
         dbUrl += ":" + encodeURIComponent(password) + "@";
     }
-    if ((0, null_check_1.isNullOrUndefined)(host) && !(0, null_check_1.isStringNullEmptyOrUndefined)(host)) {
+    if (!(0, null_check_1.isNullOrUndefined)(host) && !(0, null_check_1.isStringNullEmptyOrUndefined)(host)) {
         dbUrl += host;
     }
     if (!(0, null_check_1.isNullOrUndefined)(port) && !(0, null_check_1.isStringNullEmptyOrUndefined)(port)) {
