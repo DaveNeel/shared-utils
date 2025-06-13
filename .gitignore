@@ -1,0 +1,53 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json/
+ 
+# === Logs ===
+logs/
+*.log
+*.out
+*.err
+logfile
+debug.log
+ 
+# === Environment Variables ===
+.env
+.env.*.development
+.env.development
+.env.staging
+.env.production
+ 
+# === Testing ===
+coverage/
+.nyc_output/
+jest-test-results.json
+ 
+# === Build Artifacts ===
+dist/
+build/
+tmp/
+temp/
+.cache/
+.next/
+out/
+ 
+# === Git ===
+.git/
+*.orig
+ 
+# === Global Ignores for Each Service ===
+# You can enforce structure-specific ignores like:
+services/**/node_modules/
+services/**/dist/
+services/**/.env
+services/**/coverage/
+services/**/.next/
+
+
+# package lock file
+package-lock.json
+**/package-lock.json
