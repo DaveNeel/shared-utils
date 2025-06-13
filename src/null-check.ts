@@ -13,7 +13,3 @@ export const isNumberNullOrUndefined = (o: number): boolean => {
 export const isStringNullEmptyOrUndefined = (str: string): boolean => {
     return isNullOrUndefined(str) || str === '';
 };
-
-export const isObjectEmpty = (obj: Object): boolean => {
-    return Object.keys(obj).length === 0;
-};
